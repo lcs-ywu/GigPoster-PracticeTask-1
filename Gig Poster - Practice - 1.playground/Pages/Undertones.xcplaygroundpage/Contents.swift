@@ -29,7 +29,19 @@ let canvas = Canvas(width: 400, height: 600)
 let lightGrey = Color(hue: 84, saturation: 6, brightness: 88, alpha: 100)
 let deepRed = Color(hue: 7, saturation: 97, brightness: 72, alpha: 100)
 
-// Begin your solution here...
+//// Begin your solution here...
+//canvas.drawAxes()
+////Move the origin 100 pixels right, 200 pixels up
+//canvas.translate(to: Point(x:100, y:200))
+//canvas.drawAxes()
+////Draw a square at the origin
+//canvas.drawRectangle(at: Point(x:0,y:0), width: 50, height: 50)
+////Make shapes with no fill
+//canvas.drawShapesWithFill=false
+////Move the origin again, over 100, up 300
+//canvas.translate(to: Point(x:100,y:300))
+//canvas.drawAxes()
+
 
 
 /*:
