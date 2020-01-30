@@ -6,7 +6,7 @@ import PlaygroundSupport
 /*:
  Each image is exactly 400 pixels wide by 600 pixels tall. 
  
- Your goal is to precisely reproduce this image:
+ Your goal is to precisely reproduce this image: 
  
  ![undertones-no-grid](undertones-no-grid.png "Undertones")
  ![undertones-with-grid](undertones-with-grid.png "Undertones")
