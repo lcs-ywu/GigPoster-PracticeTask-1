@@ -230,9 +230,7 @@ open class Canvas : NSImageView, CustomPlaygroundDisplayConvertible {
      
      */
     open func drawText(message: String, at: Point, size: Int = 24, kerning : Float = 0.0)  {
-        
-        print("inside drawText")
-        
+                
         // Set attributes of shape based on the canvas scale factor
         var size = size
         size *= scale
