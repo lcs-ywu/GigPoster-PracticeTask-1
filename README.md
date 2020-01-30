@@ -1,3 +1,5 @@
-# Gig Poster – Task 4
+# Gig Poster – Practice Task 1
 
-Complete and commit this task prior to the end of evening study on Tuesday, January 21, 2020 to create evidence that supports your case for exceeding expectations for thread 2.
+As this is a practice task, there is no hard deadline. However, completing this practice task – an assessment for learning – prior to attempting an assessment of learning – is strongly recommended.
+
+Be sure to commit your work multilple times as you make progress on completing this task.

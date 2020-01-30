@@ -4,7 +4,7 @@ import Cocoa
 import PlaygroundSupport
 
 /*:
- Each image is exactly 400 pixels wide by 600 pixels tall.
+ Each image is exactly 400 pixels wide by 600 pixels tall. 
  
  Your goal is to precisely reproduce this image:
  
@@ -35,7 +35,9 @@ let deepRed = Color(hue: 7, saturation: 97, brightness: 72, alpha: 100)
 /*:
  ## Use Source Control
  
- Remember to commit and push your work before the end of evening study on Tuesday, January 21, 2020, please.
+ As this is a practice task, there is no hard deadline. However, completing this practice task – an assessment for learning – prior to attempting an assessment of learning – is strongly recommended.
+ 
+ Be sure to commit your work multilple times as you make progress on completing this task.
 
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
