@@ -41,6 +41,38 @@ let deepRed = Color(hue: 7, saturation: 97, brightness: 72, alpha: 100)
 ////Move the origin again, over 100, up 300
 //canvas.translate(to: Point(x:100,y:300))
 //canvas.drawAxes()
+//
+////Drawsix squares rotated around around current origin
+//for _ in 1...6 {
+//    canvas.rotate(by: 60)
+//    canvas.drawRectangle(at: Point(x:0,y:0), width: 50, height: 50)
+//}
+
+//5
+
+canvas.fillColor = lightGrey
+canvas.drawRectangle(at: Point(x:0,y:0), width: 400, height: 600)
+canvas.translate(to: Point(x:13,y:375))
+//canvas.drawAxes()
+canvas.drawText(message: "undertones", at: Point(x:0,y:0), size: 65)
+
+for _ in 1...18 {
+    
+    canvas.rotate(by: Degrees(-5))
+    canvas.drawText(message: "undertones", at: Point(x:0,y:0), size: 65)
+    
+}
+
+//canvas.translate(to: Point(x:0,y:0))
+//for m in 1...7 {
+//    canvas.drawLine(from: Point(x:m*50, y:0), to: Point(x:m*50, y: 600))
+//}
+//
+//for n in 1...11 {
+//    canvas.drawLine(from: Point(x:0,y:n*50), to: Point(x:400,y:n*50))
+//}
+
+
 
 
 
