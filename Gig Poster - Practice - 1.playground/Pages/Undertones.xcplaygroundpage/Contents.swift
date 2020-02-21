@@ -52,16 +52,30 @@ let deepRed = Color(hue: 7, saturation: 97, brightness: 72, alpha: 100)
 
 canvas.fillColor = lightGrey
 canvas.drawRectangle(at: Point(x:0,y:0), width: 400, height: 600)
-canvas.translate(to: Point(x:13,y:375))
-//canvas.drawAxes()
-canvas.drawText(message: "undertones", at: Point(x:0,y:0), size: 65)
+canvas.textColor = deepRed
+canvas.drawText(message: "straight music presents", at: Point(x: 10, y: 550), size: 10)
+canvas.drawText(message: "the undertones", at: Point(x: 10, y: 540), size: 10)
+canvas.drawText(message: "with special guests", at: Point(x: 10, y: 525), size: 10)
+canvas.drawText(message: "the chords", at: Point(x: 10, y: 515), size: 10)
+canvas.drawText(message: "victoria hall hanley", at: Point(x: 150, y: 550), size: 10)
+canvas.drawText(message: "stoke-on-trent, england", at: Point(x: 150, y: 540), size: 10)
+canvas.drawText(message: "tuesday", at: Point(x: 150, y: 525), size: 10)
+canvas.drawText(message: "june 5 1979 / 7:30 pm", at: Point(x: 150, y: 515), size: 10)
+canvas.drawText(message: "advance tickets:£2.00", at: Point(x: 280, y: 550), size: 10)
+canvas.drawText(message: "at the door:£2.50", at: Point(x: 280, y: 540), size: 10)
 
-for _ in 1...18 {
-    
+canvas.translate(to: Point(x:10,y:400))
+//canvas.drawAxes()
+//canvas.textColor = Color(hue: 0, saturation: 0, brightness: 0, alpha: 100)
+//canvas.drawText(message: "undertones", at: Point(x:0,y:0), size: 65)
+
+for n in 0...18 {
+    let black = Color(hue: 0, saturation: 0, brightness: 0, alpha: 100-5*n)
+    canvas.textColor = black
+    canvas.drawText(message: " undertones", at: Point(x:-14,y:-25), size: 70)
     canvas.rotate(by: Degrees(-5))
-    canvas.drawText(message: "undertones", at: Point(x:0,y:0), size: 65)
-    
 }
+
 
 //canvas.translate(to: Point(x:0,y:0))
 //for m in 1...7 {
